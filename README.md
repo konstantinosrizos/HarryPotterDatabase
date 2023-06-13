@@ -11,3 +11,18 @@ Fetch data from the network via repository pattern.</p>
 ![logo](https://github.com/konstantinosrizos/HarryPotterDatabase/blob/main/Preview/HarryPotterDatabaseLogo.png)
 
 <br>
+
+## 💡 Stack & Libraries
+- Minimum SDK level 16
+- [Swift](https://developer.apple.com/swift/) + [SwiftUI](https://developer.apple.com/xcode/swiftui/)
+
+## 💎 Architecture
+
+Harry Potter Database does not use a Local database.
+
+<br>
+
+## ✨ API
+
+- https://hp-api.onrender.com/
+
