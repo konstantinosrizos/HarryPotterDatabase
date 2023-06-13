@@ -8,6 +8,6 @@
 <p align="center">Harry Potter Database Application is sample based on MVVM architecture.</br>
 Fetch data from the network via repository pattern.</p>
 
-![logo](https://github.com/hongbeomi/HarryPotter/blob/master/preview/logo.png)
+![logo](https://github.com/konstantinosrizos/HarryPotterDatabase/blob/main/Preview/HarryPotterDatabaseLogo.png)
 
 <br>
