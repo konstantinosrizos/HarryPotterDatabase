@@ -1,4 +1,4 @@
-# <p align="center">Harry Potter</p>
+# <p align="center">Harry Potter Database</p>
 
 <p align="center">
 <img alt="api" src="https://img.shields.io/badge/API-21%2B-green?logo=android"/>
