@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "HPErrorScreen.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
