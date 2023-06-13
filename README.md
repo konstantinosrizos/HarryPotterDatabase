@@ -20,6 +20,8 @@ Fetch data from the network via repository pattern.</p>
 
 Harry Potter Database does not use a Local database.
 
+![architecture](https://github.com/konstantinosrizos/HarryPotterDatabase/blob/main/Preview/MVVMArchitecture.png)
+
 <br>
 
 ## ✨ API
