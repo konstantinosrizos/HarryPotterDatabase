@@ -28,3 +28,10 @@ Harry Potter Database does not use a Local database.
 
 - https://hp-api.onrender.com/
 
+<br>
+
+## ☑️ TODO
+
+- UI Improvements (WIP)
+- UI Tests (WIP)
+- Unit Tests (WIP)
