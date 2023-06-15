@@ -4,9 +4,11 @@ final class SpellsViewModel: ObservableObject {
     @Published private(set) var state: State = .loading
     
     private let spellsRepository: SpellsRepositoryProtocol
+    private let applicationShared: ApplicationSharedProtocol
     
-    init(spellsRepository: SpellsRepositoryProtocol = SpellsRepository()) {
+    init(spellsRepository: SpellsRepositoryProtocol = SpellsRepository(), applicationShared: ApplicationSharedProtocol = ApplicationShared()) {
         self.spellsRepository = spellsRepository
+        self.applicationShared = applicationShared
     }
     
     @MainActor
@@ -25,6 +27,10 @@ final class SpellsViewModel: ObservableObject {
         } catch {
             state = .error
         }
+    }
+    
+    func navigateTo(url: URL) {
+        applicationShared.openUrl(url: url)
     }
 }
 

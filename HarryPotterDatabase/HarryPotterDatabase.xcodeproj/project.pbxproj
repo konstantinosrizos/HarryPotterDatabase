@@ -29,6 +29,7 @@
 		52E032532A251D9F008A33C0 /* CharactersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E032522A251D9F008A33C0 /* CharactersModel.swift */; };
 		52E032572A251F9D008A33C0 /* CharactersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E032562A251F9D008A33C0 /* CharactersRepository.swift */; };
 		52E032592A252893008A33C0 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E032582A252893008A33C0 /* ErrorView.swift */; };
+		52E79AAF2A3B18F70096893F /* ApplicationShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E79AAE2A3B18F70096893F /* ApplicationShared.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		52E032522A251D9F008A33C0 /* CharactersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersModel.swift; sourceTree = "<group>"; };
 		52E032562A251F9D008A33C0 /* CharactersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRepository.swift; sourceTree = "<group>"; };
 		52E032582A252893008A33C0 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		52E79AAE2A3B18F70096893F /* ApplicationShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationShared.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		520500832A24B1DD003C1862 /* HarryPotterDatabase */ = {
 			isa = PBXGroup;
 			children = (
+				52E79AAD2A3B18DF0096893F /* Helpers */,
 				52E032542A251EF7008A33C0 /* ErrorHelpers */,
 				52682F1F2A2A2F4600BDA348 /* Characters */,
 				520500AF2A24B2C6003C1862 /* Home */,
@@ -334,6 +337,14 @@
 			path = Repository;
 			sourceTree = "<group>";
 		};
+		52E79AAD2A3B18DF0096893F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				52E79AAE2A3B18F70096893F /* ApplicationShared.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -451,6 +462,7 @@
 				529D16FE2A29F06100E13F61 /* CharacterDetailsView.swift in Sources */,
 				52682F222A2A2FB000BDA348 /* CharactersEndpoint.swift in Sources */,
 				520500B32A24B70B003C1862 /* HomeViewModel.swift in Sources */,
+				52E79AAF2A3B18F70096893F /* ApplicationShared.swift in Sources */,
 				520500852A24B1DD003C1862 /* HarryPotterDatabaseApp.swift in Sources */,
 				52E032502A251B43008A33C0 /* CharactersApiService.swift in Sources */,
 			);

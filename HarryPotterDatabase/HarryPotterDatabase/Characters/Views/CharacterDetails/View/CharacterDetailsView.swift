@@ -225,8 +225,15 @@ struct CharacterDetailsView: View {
                     await viewModel.fetchData()
                 }
             } helpCenterButton: {
-                //
+                guard let url = URL(string: Defaults.externalLink) else { return }
+                viewModel.navigateTo(url: url)
             }
         }
+    }
+}
+
+private extension CharacterDetailsView {
+    enum Defaults {
+        static let externalLink = "https://www.google.com"
     }
 }

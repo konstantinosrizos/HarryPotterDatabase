@@ -1,16 +1,20 @@
 import Foundation
-import SwiftUI
 
 final class CharactersListViewModel: ObservableObject {
     @Published private(set) var state: State = .loading
     
     private let charactersEndpoint: CharactersAPI
     private let charactersRepository: CharactersRepositoryProtocol
+    private let applicationShared: ApplicationSharedProtocol
     
-    init(charactersEndpoint: CharactersAPI, charactersRepository: CharactersRepositoryProtocol = CharactersRepository()) {
+    init(
+        charactersEndpoint: CharactersAPI,
+        charactersRepository: CharactersRepositoryProtocol = CharactersRepository(),
+        applicationShared: ApplicationSharedProtocol = ApplicationShared()
+    ) {
         self.charactersEndpoint = charactersEndpoint
         self.charactersRepository = charactersRepository
-
+        self.applicationShared = applicationShared
     }
     
     @MainActor
@@ -29,6 +33,10 @@ final class CharactersListViewModel: ObservableObject {
         } catch {
             state = .error
         }
+    }
+    
+    func navigateTo(url: URL) {
+        applicationShared.openUrl(url: url)
     }
 }
 

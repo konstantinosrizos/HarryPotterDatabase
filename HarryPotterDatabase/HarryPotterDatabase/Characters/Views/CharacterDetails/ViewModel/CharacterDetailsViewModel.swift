@@ -5,11 +5,16 @@ final class CharacterDetailsViewModel: ObservableObject {
     
     private let charactersEndpoint: CharactersAPI
     private let charactersRepository: CharactersRepositoryProtocol
+    private let applicationShared: ApplicationSharedProtocol
     
-    init(charactersEndpoint: CharactersAPI, charactersRepository: CharactersRepositoryProtocol = CharactersRepository()) {
+    init(
+        charactersEndpoint: CharactersAPI,
+        charactersRepository: CharactersRepositoryProtocol = CharactersRepository(),
+        applicationShared: ApplicationSharedProtocol = ApplicationShared()
+    ) {
         self.charactersEndpoint = charactersEndpoint
         self.charactersRepository = charactersRepository
-
+        self.applicationShared = applicationShared
     }
     
     @MainActor
@@ -28,6 +33,10 @@ final class CharacterDetailsViewModel: ObservableObject {
         } catch {
             state = .error
         }
+    }
+    
+    func navigateTo(url: URL) {
+        applicationShared.openUrl(url: url)
     }
 }
 

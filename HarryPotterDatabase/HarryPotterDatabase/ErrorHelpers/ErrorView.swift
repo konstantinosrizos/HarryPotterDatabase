@@ -22,45 +22,34 @@ private extension ErrorView {
             Image("HPErrorScreen")
                 .resizable()
             
-            VStack(alignment: .center, spacing: 32) {
-                Spacer()
                 VStack(alignment: .center, spacing: 16) {
-                    Text(Defaults.errorMessageTitle)
-                        .bold()
-                    
-                    Text(Defaults.errorMessageDescription)
-                        .multilineTextAlignment(.center)
-                        .fixedSize(horizontal: false, vertical: true)
-                }
-                
-                VStack(alignment: .center, spacing: 16) {
+                    Spacer()
                     Button(Defaults.errorButtonRetry, action: retryButton)
                         .bold()
                         .frame(maxWidth: .infinity)
                         .frame(height: Defaults.buttonHeight)
-                        .foregroundColor(.white)
-                        .background(Color.blue)
+                        .foregroundColor(Color("HPRed"))
+                        .background(Color("HPYellow"))
                         .cornerRadius(Defaults.cornerRadius)
                     
                     Button(Defaults.errorButtonHelpCenter, action: helpCenterButton)
+                        .bold()
                         .frame(maxWidth: .infinity)
                         .frame(height: Defaults.buttonHeight)
-                        .foregroundColor(.blue)
-                        .background(.white)
-                        .overlay(RoundedRectangle(cornerRadius: Defaults.cornerRadius).stroke(.blue, lineWidth: 1))
+                        .foregroundColor(Color("HPRed"))
+                        .background(Color("HPYellow"))
+                        .cornerRadius(Defaults.cornerRadius)
+                    
+                    Spacer()
+                        .frame(height: 20)
                 }
-                Spacer()
-                    .frame(height: 20)
-            }
-            .padding([.top, .leading, .trailing], 24)
+                .padding([.top, .leading, .trailing], 24)
         }
     }
 }
 
 private extension ErrorView {
     enum Defaults {
-        static let errorMessageTitle = "Error Occured"
-        static let errorMessageDescription = "We encountered an unexpected and serious error. Please try again or visit our help center."
         static let errorButtonRetry = "Retry Again"
         static let errorButtonHelpCenter = "Visit our help center"
         
