@@ -29,9 +29,3 @@ struct CharactersListView: View {
         }
     }
 }
-
-//struct CharactersView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        CharactersView(viewModel: .init())
-//    }
-//}

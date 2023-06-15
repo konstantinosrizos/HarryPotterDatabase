@@ -230,9 +230,3 @@ struct CharacterDetailsView: View {
         }
     }
 }
-
-//struct CharacterDetailsView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        CharacterDetailsView()
-//    }
-//}

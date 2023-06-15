@@ -41,9 +41,3 @@ struct SpellsView: View {
         }
     }
 }
-
-struct SpellsView_Previews: PreviewProvider {
-    static var previews: some View {
-        SpellsView(viewModel: .init())
-    }
-}
