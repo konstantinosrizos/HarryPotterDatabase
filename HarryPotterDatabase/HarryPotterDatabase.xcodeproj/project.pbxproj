@@ -11,7 +11,6 @@
 		520500872A24B1DD003C1862 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520500862A24B1DD003C1862 /* HomeView.swift */; };
 		520500892A24B1DE003C1862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520500882A24B1DE003C1862 /* Assets.xcassets */; };
 		5205008D2A24B1DE003C1862 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5205008C2A24B1DE003C1862 /* Preview Assets.xcassets */; };
-		520500972A24B1DE003C1862 /* HarryPotterDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520500962A24B1DE003C1862 /* HarryPotterDatabaseTests.swift */; };
 		520500B32A24B70B003C1862 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520500B22A24B70B003C1862 /* HomeViewModel.swift */; };
 		520500BD2A24C0A8003C1862 /* CharactersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520500BC2A24C0A8003C1862 /* CharactersListView.swift */; };
 		520500C02A24C0F6003C1862 /* CharactersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520500BF2A24C0F6003C1862 /* CharactersListViewModel.swift */; };
@@ -30,6 +29,12 @@
 		52E032572A251F9D008A33C0 /* CharactersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E032562A251F9D008A33C0 /* CharactersRepository.swift */; };
 		52E032592A252893008A33C0 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E032582A252893008A33C0 /* ErrorView.swift */; };
 		52E79AAF2A3B18F70096893F /* ApplicationShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E79AAE2A3B18F70096893F /* ApplicationShared.swift */; };
+		52E79AB22A3B1C7C0096893F /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 52E79AB12A3B1C7C0096893F /* SnapshotTesting */; };
+		52E79AB72A3B1CD60096893F /* MockApplicationShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E79AB62A3B1CD60096893F /* MockApplicationShared.swift */; };
+		52E79AB92A3B1D750096893F /* CharactersModel+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E79AB82A3B1D750096893F /* CharactersModel+Mock.swift */; };
+		52E79ABB2A3B1FC00096893F /* SpellsModel+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E79ABA2A3B1FC00096893F /* SpellsModel+Mock.swift */; };
+		52E79ABD2A3B22910096893F /* MockCharactersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E79ABC2A3B22910096893F /* MockCharactersRepository.swift */; };
+		52E79ABF2A3B26690096893F /* MockSpellsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E79ABE2A3B26690096893F /* MockSpellsRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +55,6 @@
 		5205008A2A24B1DE003C1862 /* HarryPotterDatabase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HarryPotterDatabase.entitlements; sourceTree = "<group>"; };
 		5205008C2A24B1DE003C1862 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		520500922A24B1DE003C1862 /* HarryPotterDatabaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarryPotterDatabaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		520500962A24B1DE003C1862 /* HarryPotterDatabaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterDatabaseTests.swift; sourceTree = "<group>"; };
 		520500B22A24B70B003C1862 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		520500BC2A24C0A8003C1862 /* CharactersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListView.swift; sourceTree = "<group>"; };
 		520500BF2A24C0F6003C1862 /* CharactersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewModel.swift; sourceTree = "<group>"; };
@@ -69,6 +73,11 @@
 		52E032562A251F9D008A33C0 /* CharactersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersRepository.swift; sourceTree = "<group>"; };
 		52E032582A252893008A33C0 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		52E79AAE2A3B18F70096893F /* ApplicationShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationShared.swift; sourceTree = "<group>"; };
+		52E79AB62A3B1CD60096893F /* MockApplicationShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockApplicationShared.swift; sourceTree = "<group>"; };
+		52E79AB82A3B1D750096893F /* CharactersModel+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharactersModel+Mock.swift"; sourceTree = "<group>"; };
+		52E79ABA2A3B1FC00096893F /* SpellsModel+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SpellsModel+Mock.swift"; sourceTree = "<group>"; };
+		52E79ABC2A3B22910096893F /* MockCharactersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCharactersRepository.swift; sourceTree = "<group>"; };
+		52E79ABE2A3B26690096893F /* MockSpellsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSpellsRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E79AB22A3B1C7C0096893F /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +144,9 @@
 		520500952A24B1DE003C1862 /* HarryPotterDatabaseTests */ = {
 			isa = PBXGroup;
 			children = (
-				520500962A24B1DE003C1862 /* HarryPotterDatabaseTests.swift */,
+				52E79AB52A3B1CB00096893F /* Mocks */,
+				52E79AB42A3B1CA80096893F /* UnitTests */,
+				52E79AB32A3B1C9E0096893F /* UITests */,
 			);
 			path = HarryPotterDatabaseTests;
 			sourceTree = "<group>";
@@ -345,6 +357,32 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		52E79AB32A3B1C9E0096893F /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		52E79AB42A3B1CA80096893F /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		52E79AB52A3B1CB00096893F /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				52E79AB62A3B1CD60096893F /* MockApplicationShared.swift */,
+				52E79AB82A3B1D750096893F /* CharactersModel+Mock.swift */,
+				52E79ABA2A3B1FC00096893F /* SpellsModel+Mock.swift */,
+				52E79ABC2A3B22910096893F /* MockCharactersRepository.swift */,
+				52E79ABE2A3B26690096893F /* MockSpellsRepository.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -379,6 +417,9 @@
 				520500942A24B1DE003C1862 /* PBXTargetDependency */,
 			);
 			name = HarryPotterDatabaseTests;
+			packageProductDependencies = (
+				52E79AB12A3B1C7C0096893F /* SnapshotTesting */,
+			);
 			productName = HarryPotterDatabaseTests;
 			productReference = 520500922A24B1DE003C1862 /* HarryPotterDatabaseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -398,6 +439,7 @@
 					};
 					520500912A24B1DE003C1862 = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 						TestTargetID = 520500802A24B1DD003C1862;
 					};
 				};
@@ -411,6 +453,9 @@
 				Base,
 			);
 			mainGroup = 520500782A24B1DD003C1862;
+			packageReferences = (
+				52E79AB02A3B1C7C0096893F /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = 520500822A24B1DD003C1862 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -472,7 +517,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				520500972A24B1DE003C1862 /* HarryPotterDatabaseTests.swift in Sources */,
+				52E79AB72A3B1CD60096893F /* MockApplicationShared.swift in Sources */,
+				52E79ABB2A3B1FC00096893F /* SpellsModel+Mock.swift in Sources */,
+				52E79AB92A3B1D750096893F /* CharactersModel+Mock.swift in Sources */,
+				52E79ABD2A3B22910096893F /* MockCharactersRepository.swift in Sources */,
+				52E79ABF2A3B26690096893F /* MockSpellsRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +726,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KLC2HD36UZ;
@@ -689,6 +739,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarryPotterDatabase.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HarryPotterDatabase";
@@ -700,6 +751,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KLC2HD36UZ;
@@ -749,6 +801,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52E79AB02A3B1C7C0096893F /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52E79AB12A3B1C7C0096893F /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52E79AB02A3B1C7C0096893F /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 520500792A24B1DD003C1862 /* Project object */;
 }
