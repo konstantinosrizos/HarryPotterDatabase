@@ -13,7 +13,7 @@ Fetch data from the network via repository pattern.</p>
 <br>
 
 ## 💡 Stack & Libraries
-- Minimum SDK level 16
+- Minimum iOS 16
 - [Swift](https://developer.apple.com/swift/) + [SwiftUI](https://developer.apple.com/xcode/swiftui/)
 
 ## 💎 Architecture
