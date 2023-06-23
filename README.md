@@ -26,6 +26,12 @@ Harry Potter Database does not use a Local database.
 
 <br>
 
+## ✅ Unit Tests
+
+![architecture](https://github.com/konstantinosrizos/HarryPotterDatabase/blob/main/Preview/UnitTests.png)
+
+<br>
+
 ## ✨ API
 
 - https://hp-api.onrender.com/
