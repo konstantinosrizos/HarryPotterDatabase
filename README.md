@@ -40,7 +40,7 @@ Harry Potter Database does not use a Local database.
 
 ## 🗒️ Notes
 
-- I have also commited the .DS_Store file as it contains attributes such as folder view options, icon positions, and other visual information. I know that it's not necessary.
+- I have also commited the `.DS_Store` file as it contains attributes such as folder view options, icon positions, and other visual information. I know that it's not necessary.
 
 <br>
 
