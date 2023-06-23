@@ -2,8 +2,8 @@ import XCTest
 
 @testable import HarryPotterDatabase
 
-final class SpellsViewModelTests: XCTestCase {
-    private var sut: SpellsViewModel!
+final class CharactersListViewModelTests: XCTestCase {
+    private var sut: CharactersListViewModel!
     private var urlFuncTest: URL!
     
     override func setUp() {
@@ -19,7 +19,10 @@ final class SpellsViewModelTests: XCTestCase {
     
     func test_FetchDataSuccess() async {
         // GIVEN
-        sut = SpellsViewModel(spellsRepository: MockSpellsRepository(fetchDataMockedResult: .success([.stub])))
+        sut = CharactersListViewModel(
+            charactersEndpoint: .getCharacters,
+            charactersRepository: MockCharactersRepository(fetchDataMockedResult: .success([.stub]))
+        )
         
         // WHEN
         await sut.fetchData()
@@ -30,7 +33,10 @@ final class SpellsViewModelTests: XCTestCase {
     
     func test_FetchDataError() async {
         // GIVEN
-        sut = SpellsViewModel(spellsRepository: MockSpellsRepository(fetchDataMockedResult: .failure(ApiError.decodingError)))
+        sut = CharactersListViewModel(
+            charactersEndpoint: .getCharacters,
+            charactersRepository: MockCharactersRepository(fetchDataMockedResult: .failure(ApiError.decodingError))
+        )
         
         // WHEN
         await sut.fetchData()
@@ -42,8 +48,9 @@ final class SpellsViewModelTests: XCTestCase {
     func test_NavigateTo() {
         // GIVEN
         let dummyUrl = URL(string: "https://www.google.com")!
-        sut = SpellsViewModel(
-            spellsRepository: MockSpellsRepository(fetchDataMockedResult: .failure(ApiError.decodingError)),
+        sut = CharactersListViewModel(
+            charactersEndpoint: .getCharacters,
+            charactersRepository: MockCharactersRepository(fetchDataMockedResult: .failure(ApiError.decodingError)),
             applicationShared: MockApplicationShared(testUrl: { url in
                 self.urlFuncTest = url
             })
@@ -57,8 +64,8 @@ final class SpellsViewModelTests: XCTestCase {
     }
 }
 
-extension SpellsViewModel.State: Equatable {
-    public static func == (lhs: SpellsViewModel.State, rhs: SpellsViewModel.State) -> Bool {
+extension CharactersListViewModel.State: Equatable {
+    public static func == (lhs: CharactersListViewModel.State, rhs: CharactersListViewModel.State) -> Bool {
         switch (lhs, rhs) {
         case (.loading, .loading):
             return true
