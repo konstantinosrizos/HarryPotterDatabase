@@ -5,7 +5,7 @@
 <img alt="build" src="https://img.shields.io/badge/SWIFT-5%2B-green?logo=swift"/>
 </p>
 
-<p align="center">Harry Potter Database Application is sample based on MVVM architecture.</br>
+<p align="center">Harry Potter Database Application is sample based on `MVVM` architecture.</br>
 Fetch data from the network via repository pattern.</p>
 
 ![logo](https://github.com/konstantinosrizos/HarryPotterDatabase/blob/main/Preview/HarryPotterDatabaseLogo.png)
@@ -48,7 +48,7 @@ Harry Potter Database does not use a Local database.
 
 ## 🗒️ Notes
 
-- I have also commited the `.DS_Store` file as it contains attributes such as folder view options, icon positions, and other visual information. I know that it's not necessary.
+- <del>I have also commited the `.DS_Store` file as it contains attributes such as folder view options, icon positions, and other visual information. I know that it's not necessary.</del>
 
 <br>
 
