@@ -18,6 +18,8 @@ Fetch data from the network via repository pattern.</p>
 - [Snapshot Testing](https://github.com/pointfreeco/swift-snapshot-testing#installation)
 - MVVM Architecture Pattern
 
+<br>
+
 ## 💎 Architecture
 
 Harry Potter Database does not use a Local database.
@@ -28,7 +30,13 @@ Harry Potter Database does not use a Local database.
 
 ## ✅ Unit Tests
 
-![architecture](https://github.com/konstantinosrizos/HarryPotterDatabase/blob/main/Preview/UnitTests.png)
+![UnitTests](https://github.com/konstantinosrizos/HarryPotterDatabase/blob/main/Preview/UnitTests.png)
+
+<br>
+
+## ✅ UI Tests
+
+![UITests](https://github.com/konstantinosrizos/HarryPotterDatabase/blob/main/Preview/UITests.png)
 
 <br>
 
