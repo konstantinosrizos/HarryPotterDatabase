@@ -11,7 +11,6 @@
 		520500872A24B1DD003C1862 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520500862A24B1DD003C1862 /* HomeView.swift */; };
 		520500892A24B1DE003C1862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520500882A24B1DE003C1862 /* Assets.xcassets */; };
 		5205008D2A24B1DE003C1862 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5205008C2A24B1DE003C1862 /* Preview Assets.xcassets */; };
-		520500B32A24B70B003C1862 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520500B22A24B70B003C1862 /* HomeViewModel.swift */; };
 		520500BD2A24C0A8003C1862 /* CharactersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520500BC2A24C0A8003C1862 /* CharactersListView.swift */; };
 		520500C02A24C0F6003C1862 /* CharactersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520500BF2A24C0F6003C1862 /* CharactersListViewModel.swift */; };
 		520500C52A24C1D1003C1862 /* SpellsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520500C42A24C1D1003C1862 /* SpellsView.swift */; };
@@ -63,7 +62,6 @@
 		5205008A2A24B1DE003C1862 /* HarryPotterDatabase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HarryPotterDatabase.entitlements; sourceTree = "<group>"; };
 		5205008C2A24B1DE003C1862 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		520500922A24B1DE003C1862 /* HarryPotterDatabaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarryPotterDatabaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		520500B22A24B70B003C1862 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		520500BC2A24C0A8003C1862 /* CharactersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListView.swift; sourceTree = "<group>"; };
 		520500BF2A24C0F6003C1862 /* CharactersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewModel.swift; sourceTree = "<group>"; };
 		520500C42A24C1D1003C1862 /* SpellsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsView.swift; sourceTree = "<group>"; };
@@ -173,7 +171,6 @@
 		520500AF2A24B2C6003C1862 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				520500B12A24B6C0003C1862 /* ViewModel */,
 				520500B02A24B6B8003C1862 /* View */,
 			);
 			path = Home;
@@ -185,14 +182,6 @@
 				520500862A24B1DD003C1862 /* HomeView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		520500B12A24B6C0003C1862 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				520500B22A24B70B003C1862 /* HomeViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		520500BA2A24C081003C1862 /* CharactersList */ = {
@@ -569,7 +558,6 @@
 				529D16F32A29EBB000E13F61 /* SpellsModel.swift in Sources */,
 				529D16FE2A29F06100E13F61 /* CharacterDetailsView.swift in Sources */,
 				52682F222A2A2FB000BDA348 /* CharactersEndpoint.swift in Sources */,
-				520500B32A24B70B003C1862 /* HomeViewModel.swift in Sources */,
 				52E79AAF2A3B18F70096893F /* ApplicationShared.swift in Sources */,
 				520500852A24B1DD003C1862 /* HarryPotterDatabaseApp.swift in Sources */,
 				52E032502A251B43008A33C0 /* CharactersApiService.swift in Sources */,
