@@ -4,7 +4,7 @@ import SwiftUI
 struct HarryPotterDatabaseApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView(viewModel: .init())
+            HomeView()
         }
     }
 }
