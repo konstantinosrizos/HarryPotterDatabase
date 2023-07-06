@@ -15,7 +15,7 @@ Fetch data from the network via repository pattern.</p>
 ## 💡 Stack / Libraries
 - Minimum iOS 16
 - [Swift](https://developer.apple.com/swift/) + [SwiftUI](https://developer.apple.com/xcode/swiftui/)
-- [Snapshot Testins](https://github.com/pointfreeco/swift-snapshot-testing#installation)
+- [Snapshot Testing](https://github.com/pointfreeco/swift-snapshot-testing#installation)
 - MVVM Architecture Pattern
 
 ## 💎 Architecture
