@@ -16,6 +16,8 @@
 		520500C02A24C0F6003C1862 /* CharactersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520500BF2A24C0F6003C1862 /* CharactersListViewModel.swift */; };
 		520500C52A24C1D1003C1862 /* SpellsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520500C42A24C1D1003C1862 /* SpellsView.swift */; };
 		520500C72A24C1E5003C1862 /* SpellsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520500C62A24C1E5003C1862 /* SpellsViewModel.swift */; };
+		5265004D2A56F3C800CF4842 /* SpellsViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5265004C2A56F3C800CF4842 /* SpellsViewUITests.swift */; };
+		5265004F2A56F6F000CF4842 /* __Snapshots__ in Resources */ = {isa = PBXBuildFile; fileRef = 5265004E2A56F6F000CF4842 /* __Snapshots__ */; };
 		52682F222A2A2FB000BDA348 /* CharactersEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52682F212A2A2FB000BDA348 /* CharactersEndpoint.swift */; };
 		529D16F32A29EBB000E13F61 /* SpellsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D16F22A29EBB000E13F61 /* SpellsModel.swift */; };
 		529D16F52A29EC2800E13F61 /* SpellsApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D16F42A29EC2800E13F61 /* SpellsApiService.swift */; };
@@ -63,6 +65,8 @@
 		520500BF2A24C0F6003C1862 /* CharactersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewModel.swift; sourceTree = "<group>"; };
 		520500C42A24C1D1003C1862 /* SpellsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsView.swift; sourceTree = "<group>"; };
 		520500C62A24C1E5003C1862 /* SpellsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsViewModel.swift; sourceTree = "<group>"; };
+		5265004C2A56F3C800CF4842 /* SpellsViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsViewUITests.swift; sourceTree = "<group>"; };
+		5265004E2A56F6F000CF4842 /* __Snapshots__ */ = {isa = PBXFileReference; lastKnownFileType = folder; path = __Snapshots__; sourceTree = "<group>"; };
 		52682F212A2A2FB000BDA348 /* CharactersEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersEndpoint.swift; sourceTree = "<group>"; };
 		529D16F22A29EBB000E13F61 /* SpellsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsModel.swift; sourceTree = "<group>"; };
 		529D16F42A29EC2800E13F61 /* SpellsApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsApiService.swift; sourceTree = "<group>"; };
@@ -236,6 +240,15 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		5265004B2A56F3A000CF4842 /* SpellsView */ = {
+			isa = PBXGroup;
+			children = (
+				5265004E2A56F6F000CF4842 /* __Snapshots__ */,
+				5265004C2A56F3C800CF4842 /* SpellsViewUITests.swift */,
+			);
+			path = SpellsView;
+			sourceTree = "<group>";
+		};
 		52682F1F2A2A2F4600BDA348 /* Characters */ = {
 			isa = PBXGroup;
 			children = (
@@ -366,6 +379,7 @@
 		52E79AB32A3B1C9E0096893F /* UITests */ = {
 			isa = PBXGroup;
 			children = (
+				5265004B2A56F3A000CF4842 /* SpellsView */,
 			);
 			path = UITests;
 			sourceTree = "<group>";
@@ -489,6 +503,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5265004F2A56F6F000CF4842 /* __Snapshots__ in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +545,7 @@
 				52B9D2E82A45A5B00033F80C /* CharacterDetailsViewModelTests.swift in Sources */,
 				52E79ABB2A3B1FC00096893F /* SpellsModel+Mock.swift in Sources */,
 				52E79AB92A3B1D750096893F /* CharactersModel+Mock.swift in Sources */,
+				5265004D2A56F3C800CF4842 /* SpellsViewUITests.swift in Sources */,
 				52B9D2E42A459C980033F80C /* SpellsViewModelTests.swift in Sources */,
 				52B9D2E62A45A1180033F80C /* CharactersListViewModelTests.swift in Sources */,
 				52E79ABD2A3B22910096893F /* MockCharactersRepository.swift in Sources */,
